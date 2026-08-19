@@ -1,3 +1,7 @@
+package com.example.accessingdatajpa;
+
+import jakarta.persistence.*;
+
 @Entity
 @Table(name = "customer")
 public class Customer {
